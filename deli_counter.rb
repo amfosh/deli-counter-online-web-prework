@@ -28,3 +28,4 @@ def now_serving(array)
     array.shift
   end
 end
+end

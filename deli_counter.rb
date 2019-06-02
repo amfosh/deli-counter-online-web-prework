@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line
+def line(array)
   counter = 0
   until counter == 1
   puts "The line is currently empty."

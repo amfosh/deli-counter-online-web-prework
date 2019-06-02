@@ -14,7 +14,7 @@ end
 
 def take_a_number(deli, name)
   array.push(name)
-  puts "Welcome #{name}. You are number #{deli.index(name) + 1} in line."
+  puts "Welcome #{name}. You are number #{deli.length} in line."
 end
 
 def now_serving(array)

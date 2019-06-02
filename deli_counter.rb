@@ -13,7 +13,7 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  deli << name
+  deli.push(name)
   puts "Welcome #{name}. You are number #{deli.length} in line."
 end
 

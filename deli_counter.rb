@@ -1,12 +1,11 @@
 katz_deli = []
 
-def line(customers)
-  if (!customers.empty?)
-  line_number = 1
-  customers_line = "The line is currently:"
-  counter += 1
-  end
-  puts "There are people in line."
+def line(katz_deli)
+  if katz_deli.size == 0 
+    puts "The line is currently empty."
+  else 
+    string = "The line is currently:"
+    katz_deli.each_with_index do |name, index
 end
 
 def take_a_number(katz_deli, name)

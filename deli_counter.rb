@@ -1,12 +1,12 @@
 katz_deli = []
 
-def line(katz_deli)
-  if katz_deli.size == 0 
+def line(people)
+  if people.size == 0 
     puts "The line is currently empty."
   else 
-    string = "The line is currently #{katz_deli.each_with_index}"
-    katz_deli.each_with_index do |name, index|
-      string << "#{katz_deli.index(name)+1}"
+    string = "The line is currently #{people.each_with_index}"
+    people.each_with_index do |name, index|
+      string << "#{people.index(name)+1}"
     end
     puts string
   end

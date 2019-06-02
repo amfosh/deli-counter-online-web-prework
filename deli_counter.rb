@@ -1,4 +1,4 @@
 katz_deli = []
 
-def line 
+def line
   if line = 0

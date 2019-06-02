@@ -10,8 +10,5 @@ def line
 end
 
 def take_a_number(katz_deli, name)
-  counter = 1
-  if line > 0 
-    "#{name} is "
-    puts 
+  katz_deli.push
 

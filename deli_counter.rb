@@ -11,9 +11,9 @@ def line(people)
   puts current_people
 end
 
-def take_a_number(people, name)
-  people.push(name)
-  puts "Welcome #{name}. You are number #{people.index(name) + 1} in line."
+def take_a_number(array, name)
+  array.push(name)
+  puts "Welcome #{name}. You are number #{array.index(name) + 1} in line."
 end
 
 def now_serving(array)

@@ -16,6 +16,7 @@ def take_a_number(katz_deli, name)
   katz_deli
 end
 
-def now_serving
-  puts
+def now_serving(katz_deli)
+  if katz_deli = 0
+    puts
 

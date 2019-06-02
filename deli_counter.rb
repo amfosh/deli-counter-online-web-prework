@@ -1,8 +1,10 @@
 katz_deli = []
 
 def line
-  line = 0
-  while line = 0
+  counter = 0
+  until counter == 1
   puts "The line is currently empty."
-elsif 
-puts 
+  counter += 1
+  end
+  puts "There are #{"
+

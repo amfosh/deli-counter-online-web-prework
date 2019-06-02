@@ -13,8 +13,9 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  if array == 0 
-    
+  if array.size == 0
+    puts "There is nobody waiting to be served!"
+  else
   array.push(name)
   puts "Welcome #{name}. You are number #{array.length} in line."
 end

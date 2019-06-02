@@ -11,9 +11,10 @@ def line(people)
     puts current_people
   end
 end
+end
 
-def take_a_number(array, name)
-  array.push(name)
+def take_a_number
+  people.push(name)
   puts "Welcome #{name You are number #{people.index(name) + 1} in line."
 end
 

@@ -1,9 +1,9 @@
 katz_deli = []
 
-def line(array)
-  counter = 0
-  until counter == 1
-  puts "The line is currently empty."
+def line(customers)
+  if (!customers.empty?)
+  line_number = 1
+  customers_line = "The line is currently:"
   counter += 1
   end
   puts "There are people in line."

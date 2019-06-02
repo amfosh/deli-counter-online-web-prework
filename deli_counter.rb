@@ -6,5 +6,9 @@ def line
   puts "The line is currently empty."
   counter += 1
   end
-  puts "There are #{"
+  puts "There are people in line."
+end
+
+def take_a_number(katz_deli, name)
+  
 

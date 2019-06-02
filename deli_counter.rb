@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.size == 0 
     puts "The line is currently empty."
   else 
-    string = "The line is currently #{katz_deli.size}"
+    string = "The line is currently #{katz_deli.each_with_index}"
     katz_deli.each_with_index do |name, index|
       string << "#{katz_deli.index(name)+1}"
     end
@@ -13,9 +13,6 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  if array.size == 0
-    puts "There is nobody waiting to be served!"
-  else
   array.push(name)
   puts "Welcome #{name}. You are number #{array.length} in line."
 end

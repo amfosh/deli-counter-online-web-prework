@@ -13,7 +13,7 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  array.push(name)
+  deli << push
   puts "Welcome #{name}. You are number #{deli.length} in line."
 end
 

@@ -13,7 +13,7 @@ end
 
 def take_a_number(people, name)
   people.push(name)
-  puts "Welcome #{name You are number #{people.index(name) + 1} in line."
+  puts "Welcome #{name}. You are number #{people.index(name) + 1} in line."
 end
 
 def now_serving(array)

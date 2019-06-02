@@ -6,7 +6,7 @@ def line(people)
   else 
     current_people = "The line is currently:"
     people.each_with_index do |name, index|
-      string << "#{people.index(name)+1}"
+      people << "#{people.index(name)+1}"
     end
     puts string
   end

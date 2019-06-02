@@ -18,6 +18,6 @@ end
 
 def now_serving(katz_deli)
   puts "There is nobody waiting to be served!"
-else
+else puts 
   
 

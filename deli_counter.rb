@@ -23,5 +23,5 @@ else puts "Currently serving #{name}."
   array.shift
   array
 end
-  
+end
 

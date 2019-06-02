@@ -24,4 +24,3 @@ else puts "Currently serving #{name}."
   array
 end
 end
-
